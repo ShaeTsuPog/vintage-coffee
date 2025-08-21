@@ -1,0 +1,10 @@
+{
+  "type": "content",
+  "modid": "coffee",
+  "name": "Coffee Shrub",
+  "version": "0.1.0",
+  "description": "Wild coffee shrubs, pruning harvest, roasting, and a hot coffee drink.",
+  "authors": [ "You" ],
+  "dependencies": { "game": "1.20.0" }
+
+}

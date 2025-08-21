@@ -1,0 +1,136 @@
+{
+  "code": "coffeebush",
+
+  "class": "BlockBerryBush",
+  "entityclass": "BerryBush",
+
+  "attributes": {
+    "foodTags": [ "sweetBerryBush" ],
+    "butterflyFeedByType": { "*-flowering": true },
+    "beeFeedByType": { "*-flowering": true },
+    "forageStatAffected": true,
+    "reinforcable": true,
+
+    "resetBelowTemperature": -2,
+    "stopBelowTemperature": 4,
+    "revertBlockBelowTemperature": -4,
+
+    "resetAboveTemperature": 35,
+    "stopAboveTemperature": 30,
+    "revertBlockAboveTemperature": 38,
+
+    "stackable": true
+  },
+
+  "behaviorsByType": {
+    "*-ripe": [
+      {
+        "name": "Harvestable",
+        "properties": {
+          "harvestTime": 0.6,
+          "harvestedStack": {
+            "type": "item",
+            "code": "coffee:coffee-beans-green",
+            "quantity": { "avg": 3.5 }
+          },
+          "harvestedBlockCode": "coffee:coffeebush-coffee-empty",
+          "exchangeBlock": true
+        }
+      }
+    ]
+  },
+
+  "variantgroups": [
+    {
+      "code": "type",
+      "states": [ "coffee" ]
+    },
+    {
+      "code": "state",
+      "states": [ "empty", "flowering", "ripe" ]
+    }
+  ],
+
+  "creativeinventory": {
+    "general": [ "*" ],
+    "flora": [ "*" ]
+  },
+
+  "renderpass": "OpaqueNoCull",
+  "renderAlphaTest": 0.4,
+
+  "shapeByType": {
+    "*-empty": {
+      "base": "game:block/plant/berrybush/large*",
+      "selectiveElements": [ "branchesN", "branchesS", "Leaves", "Largeleaves/*" ]
+    },
+    "*": { "base": "game:block/plant/berrybush/large*" }
+  },
+
+  "blockmaterial": "Plant",
+
+  "textures": {
+    "all": { "base": "coffee:block/plant/coffeebush-leaves" },
+    "leavessmall": { "base": "coffee:block/plant/coffeebush-leaves" },
+    "leaveslarge": { "base": "coffee:block/plant/coffeebush-leaves" }
+  },
+
+  "texturesByType": {
+    "*-flowering": {
+      "flowerberrysmalltop": { "base": "coffee:block/plant/coffeebush-leaves" },
+      "flowerberrysmall": { "base": "coffee:block/plant/coffeebush-leaves" },
+      "flowerberrylarge": { "base": "coffee:block/plant/coffeebush-leaves" }
+    },
+    "*-ripe": {
+      "flowerberrysmalltop": { "base": "coffee:block/plant/coffeebush-fruit" },
+      "flowerberrysmall": { "base": "coffee:block/plant/coffeebush-fruit" },
+      "flowerberrylarge": { "base": "coffee:block/plant/coffeebush-fruit" }
+    }
+  },
+
+  "sideopaque": { "all": false },
+  "sidesolid": { "all": false },
+  "replaceable": 3000,
+  "lightAbsorption": 0,
+  "resistance": 0.5,
+  "collisionbox": null,
+
+  "sounds": {
+    "place": "block/plant",
+    "break": "block/plant",
+    "hit": "block/plant",
+    "inside": "walk/inside/leafy/bushrustle*"
+  },
+
+  "rainPermeable": false,
+
+  "dropsByType": {
+    "*-ripe": [
+      {
+        "type": "block",
+        "code": "coffee:coffeebush-coffee-empty",
+        "quantity": { "avg": 1 }
+      },
+      {
+        "type": "item",
+        "code": "coffee:coffee-beans-green",
+        "quantity": { "avg": 3.5 }
+      }
+    ],
+    "*": [
+      {
+        "type": "block",
+        "code": "coffee:coffeebush-coffee-empty",
+        "quantity": { "avg": 1 }
+      }
+    ]
+  },
+
+  "materialDensity": 400,
+  "vertexFlags": { "zOffset": 2 },
+  "combustibleProps": {
+    "burnTemperature": 600,
+    "burnDuration": 10
+  },
+  "frostable": true
+}
