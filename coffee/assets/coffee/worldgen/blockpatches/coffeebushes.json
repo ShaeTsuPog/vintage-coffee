@@ -18,7 +18,7 @@
 		"minY": 0.0,
 		"maxY": 0.75,
 
-		"chance": 0.007,
+		"chance": 0.015,
 		"quantity": {
 			"avg": 5,
 			"var": 2
