@@ -1,0 +1,39 @@
+# --- Build outputs (dotnet / VS) ---
+**/bin/
+**/obj/
+**/out/
+**/artifacts/
+
+# compiled binaries we don't commit
+CoffeeEffects/**/*.dll
+CoffeeEffects/**/*.pdb
+
+# --- IDE clutter ---
+.vs/
+.idea/
+.vscode/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# --- OS cruft ---
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# --- Logs & caches ---
+**/Logs/
+**/*.log
+
+# --- Archives / packages ---
+*.zip
+*.7z
+*.rar
+
+# --- Temp files ---
+*.tmp
+~$*
+
+# keep placeholder files if you use them
+!.gitkeep
