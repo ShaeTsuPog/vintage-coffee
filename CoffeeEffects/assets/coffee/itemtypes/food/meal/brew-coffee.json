@@ -1,0 +1,20 @@
+{
+  "code": "brew-coffee",
+  "class": "ItemBrewCoffee",
+
+  "nutritionProps": {
+    "satiety": 80,
+    "foodCategory": "vegetable",
+    "health": 0
+  },
+
+  "attributes": {
+    "coffeeInstantDegrees": 2.5, // immediate warmth bump (°C)
+    "coffeeDurationSec": 480, // seconds of gentle warmth push
+    "coffeeBoostPerSec": 0.03, // °C per second while active
+
+    "coffeeHungerMul": 0.9, // 10% slower hunger drain (0.8 = 20% slower)
+    "coffeeHungerHours": 3, // duration in in-game hours
+    "coffeeHungerSatPerHourBase": 60 // baseline hunger loss used for offset
+  }
+}
