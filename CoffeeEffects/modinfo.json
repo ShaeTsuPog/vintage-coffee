@@ -1,9 +1,11 @@
 {
   "type": "code",
-  "name": "Coffee Effects",
-  "modid": "coffeeeffects",
+  "Name": "Coffee",
+  "ModID": "coffee",
   "version": "1.0.0",
   "description": "Warmth bump + slower hunger drain after drinking coffee.",
   "authors": [ "KritterBizkit" ],
-  "dependencies": { "game": "1.20.12" }
+  "dependencies": { "game": "1.20.12" },
+  "Assembly": "CoffeeEffects.dll",
+  "ModSystem": [ "CoffeeMod.CoffeeWarmthSystem" ]
 }
