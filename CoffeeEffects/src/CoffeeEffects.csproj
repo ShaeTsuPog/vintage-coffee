@@ -7,11 +7,17 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Reference Include="VintagestoryAPI">
-      <HintPath>"C:\Users\james\AppData\Roaming\Vintagestory\VintagestoryAPI.dll"</HintPath>
-    </Reference>
-    <Reference Include="VSSurvivalMod">
-      <HintPath>"C:\Users\james\AppData\Roaming\Vintagestory\Mods\VSSurvivalMod.dll"</HintPath>
-    </Reference>
-  </ItemGroup>
+  <!-- Core API -->
+  <Reference Include="VintagestoryAPI">
+    <HintPath>C:\Users\james\AppData\Roaming\Vintagestory\VintagestoryAPI.dll</HintPath>
+  </Reference>
+
+  <!-- GameContent (the assembly that contains ItemMeal) -->
+  <!-- In your install this assembly is shipped as VSSurvivalMod.dll -->
+  <Reference Include="Vintagestory.GameContent">
+    <HintPath>C:\Users\james\AppData\Roaming\Vintagestory\Mods\VSSurvivalMod.dll</HintPath>
+  </Reference>
+</ItemGroup>
+
+
 </Project>
