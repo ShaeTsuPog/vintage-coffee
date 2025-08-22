@@ -1,7 +1,6 @@
 {
   "code": "brew-coffee",
-  "class": "ItemMeal", 
-
+  
   "nutritionProps": {
     "satiety": 80,
     "foodCategory": "vegetable",
