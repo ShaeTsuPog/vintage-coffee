@@ -3,10 +3,14 @@
   "class": "Item",
   "maxstacksize": 64,
   "textures": { "all": { "base": "coffee:item/coffee-beans-roasted" } },
-  "nutritionProps": {
-    "satiety": 40,
-    "foodCategory": "Vegetable",
-    "health": 0
+
+  "grindingProps": {
+    "groundStack": {
+      "type": "item",
+      "code": "coffee:coffee-grounds",
+      "quantity": 1
+    }
   },
+
   "creativeinventory": { "general": [ "*" ] }
 }
