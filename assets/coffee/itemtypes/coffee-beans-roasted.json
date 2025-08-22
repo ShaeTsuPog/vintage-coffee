@@ -2,6 +2,11 @@
   "code": "coffee-beans-roasted",
   "class": "Item",
   "maxstacksize": 64,
-  "creativeinventory": { "general": [ "*" ] },
-  "textures": { "all": { "base": "coffee:item/coffee-beans-roasted" } }
+  "textures": { "all": { "base": "coffee:item/coffee-beans-roasted" } },
+  "nutritionProps": {
+    "satiety": 40,
+    "foodCategory": "Vegetable",
+    "health": 0
+  },
+  "creativeinventory": { "general": [ "*" ] }
 }

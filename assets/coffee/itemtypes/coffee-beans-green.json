@@ -2,6 +2,20 @@
   "code": "coffee-beans-green",
   "class": "Item",
   "maxstacksize": 64,
-  "creativeinventory": { "general": [ "*" ] },
-  "textures": { "all": { "base": "coffee:item/coffee-beans-green" } }
+
+  "textures": { "all": { "base": "coffee:item/coffee-beans-green" } },
+
+  "combustibleProps": {
+    "meltingPoint": 120,
+    "meltingDuration": 12,
+    "smeltingType": "cook",
+    "smeltedRatio": 1,
+    "smeltedStack": {
+      "type": "item",
+      "code": "coffee:coffee-beans-roasted"
+    },
+    "requiresContainer": false
+  },
+
+  "creativeinventory": { "general": [ "*" ] }
 }
