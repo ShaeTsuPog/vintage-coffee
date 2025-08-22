@@ -1,0 +1,12 @@
+{
+  "Type": "code",
+  "Name": "Coffee",
+  "ModID": "coffee",
+  "Version": "0.4.0",
+  "Side": "Universal",
+  "Description": "Coffee shrubs, beans, roasting & brewed coffee with warmth and a slower hunger drain.",
+  "Authors": [ "KritterBizkit" ],
+  "Dependencies": { "game": "1.20.12" }
+
+  
+}
