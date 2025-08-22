@@ -2,7 +2,7 @@
   "type": "code",
   "name": "Coffee Effects",
   "modid": "coffeeeffects",
-  "version": "1.0.0",
+  "version": "0.4.0",
   "description": "Warmth bump + slower hunger drain after drinking coffee.",
   "authors": [ "KritterBizkit" ],
   "dependencies": { "game": "1.20.12" }
