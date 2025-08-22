@@ -1,6 +1,11 @@
 {
-  "block-coffeebush": "Coffee Shrub",
   "item-coffee-beans-green": "Green Coffee Beans",
-  
+  "item-coffee-beans-roasted": "Roasted Coffee Beans",
+  "item-coffee-grounds": "Coffee Grounds",
 
+  "block-coffeebush-coffee-empty": "Coffee Bush",
+  "block-coffeebush-coffee-flowering": "Coffee Bush (Flowering)",
+  "block-coffeebush-coffee-ripe": "Coffee Bush (Ripe)",
+
+  "meal-brew-coffee": "Brewed Coffee"
 }
