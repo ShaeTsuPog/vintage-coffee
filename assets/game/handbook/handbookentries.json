@@ -1,0 +1,37 @@
+[
+  {
+    "code": "item-coffee-beans-green",
+    "text": "Unroasted green coffee beans. They can be roasted to prepare for brewing.",
+    "showinhandbook": true
+  },
+  {
+    "code": "item-coffee-beans-roasted",
+    "text": "Freshly roasted beans, full of aroma. Grind them to make coffee grounds. To be ground in the Quern.",
+    "showinhandbook": true
+  },
+  {
+    "code": "item-coffee-grounds",
+    "text": "Ground roasted coffee beans. Use these in a cooking pot to brew coffee.",
+    "showinhandbook": true
+  },
+  {
+    "code": "meal-brew-coffee",
+    "text": "A hot drink brewed from roasted coffee grounds. Restores satiety and gives you energy.",
+    "showinhandbook": true
+  },
+  {
+    "code": "block-coffeebush-coffee-empty",
+    "text": "A coffee bush. Plant it and tend to it until it flowers and produces ripe beans.",
+    "showinhandbook": true
+  },
+  {
+    "code": "block-coffeebush-coffee-flowering",
+    "text": "A flowering coffee bush, soon to produce ripe beans.",
+    "showinhandbook": true
+  },
+  {
+    "code": "block-coffeebush-coffee-ripe",
+    "text": "A ripe coffee bush, ready to harvest beans.",
+    "showinhandbook": true
+  }
+]

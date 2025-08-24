@@ -1,7 +1,0 @@
-{
-  "code": "coffee-beans-roasted",
-  "class": "Item",
-  "maxstacksize": 64,
-  "creativeinventory": { "general": [ "*" ] },
-  "textures": { "all": { "base": "coffee:item/coffee-beans-roasted" } }
-}

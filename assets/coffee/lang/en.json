@@ -1,0 +1,28 @@
+{
+  "item-coffee-beans-green": "Green Coffee Beans",
+  "item-coffee-beans-roasted": "Roasted Coffee Beans",
+  "item-coffee-grounds": "Coffee Grounds",
+
+  "block-coffeebush-coffee-empty": "Coffee Bush",
+  "block-coffeebush-coffee-flowering": "Coffee Bush (Flowering)",
+  "block-coffeebush-coffee-ripe": "Coffee Bush (Ripe)",
+
+  "meal-brew-coffee": "Brewed Coffee",
+
+  
+  
+  "game:handbook-category-coffee": "Coffee",
+  "handbook-category-coffee:category": "Coffee",
+
+  "coffee:roast-beans-title": "Roast Coffee Beans",
+  "coffee:roast-beans-text": "Place <i>Green Coffee Beans</i> into a firepit or oven, just like grains or nuts. Once roasted, they become <i>Roasted Coffee Beans</i>, releasing their aroma and flavor.",
+
+  "coffee:grind-beans-title": "Grind Roasted Beans",
+  "coffee:grind-beans-text": "Put <i>Roasted Coffee Beans</i> into a <i>Quern</i> and grind them into <i>Coffee Grounds</i>. This works just like grinding flour.",
+
+  "coffee:brew-coffee-title": "Brew Coffee",
+  "coffee:brew-coffee-text": "Add <i>Coffee Grounds</i> and <i>Water</i> into a <i>Cooking Pot</i> and heat until brewed. The result is <i>Brewed Coffee</i>, a hot drink that restores satiety and provides energy."
+}
+
+
+

@@ -1,0 +1,16 @@
+{
+  "code": "coffee-beans-roasted",
+  "class": "Item",
+  "maxstacksize": 64,
+  "textures": { "all": { "base": "coffee:item/coffee-beans-roasted" } },
+
+  "grindingProps": {
+    "groundStack": {
+      "type": "item",
+      "code": "coffee:coffee-grounds",
+      "quantity": 1
+    }
+  },
+
+  "creativeinventory": { "general": [ "*" ] }
+}
