@@ -1,0 +1,54 @@
+{
+	"code": "brew-coffee",
+	"cookedIn": "cookpot",
+	"cookingTimeSecs": 30,
+	"serveHot": true,
+
+	"perishableProps": {
+		"freshHours": { "avg": 96 },
+		"transitionHours": { "avg": 24 },
+		"transitionRatio": 1,
+		"transitionedStack": {
+			"type": "item",
+			"code": "rot"
+		}
+	},
+
+	"shape": { "base": "game:block/food/meal/soup" },
+
+
+	"ingredients": [
+		{
+			"code": "water",
+			"validStacks": [
+				{
+					"type": "item",
+					"code": "game:waterportion"
+				}
+			],
+			"minQuantity": 1,
+			"maxQuantity": 1,
+			"portionSizeLitres": 1
+		},
+		{
+			"code": "coffee",
+			"validStacks": [
+				{
+					"type": "item",
+					"code": "coffee:coffee-grounds",
+					"textureMapping": [
+						"soup",
+						"coffee:block/liquid/brewed-coffee",
+						"liquid",
+						"coffee:block/liquid/brewed-coffee",
+						"water",
+						"coffee:block/liquid/brewed-coffee"
+					]
+				}
+			],
+			"minQuantity": 1,
+			"maxQuantity": 1
+		}
+
+	]
+}
